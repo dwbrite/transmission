@@ -5,3 +5,4 @@ authors = ["dwbrite"]
 
 [dependencies]
 cursive = { git = "https://github.com/gyscos/Cursive" }
+ears = "*"

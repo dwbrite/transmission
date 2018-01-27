@@ -1,33 +1,43 @@
+extern crate ears;
 extern crate cursive;
 
+use ears::{Sound, AudioController};
+use std::time::Duration;
+use std::thread::sleep;
+
 use cursive::Cursive;
-use cursive::align::HAlign;
+use cursive::event::{Event, Key};
+use cursive::traits::*;
+use cursive::align::*;
 use cursive::view::Boxable;
-use cursive::views::{Dialog, Panel, TextView};
+use cursive::view::SizeConstraint;
+use cursive::views::{Dialog, Panel, TextView, TextArea};
+
 
 fn main() {
+    // let mut snd = Sound::new("src/test.ogg").unwrap();
+    // snd.play();
+
     // Read some long text from a file.
-    let content = include_str!("../assets/lorem.txt");
+    let content = include_str!("../story.md");
 
     let mut siv = Cursive::new();
 
-    // We can quit by pressing q
-    siv.add_global_callback('q', |s| s.quit());
-
     // The text is too long to fit on a line, so the view will wrap lines,
     // and will adapt to the terminal size.
-    siv.add_fullscreen_layer(
-        Dialog::around(Panel::new(TextView::new(content)))
-            // This is the alignment for the button
-            .h_align(HAlign::Center)
-            .button("Quit", |s| s.quit())
-            .full_screen(),
+
+    siv.add_layer(
+        Dialog::new()
+            .title("Notes")
+            .content(TextArea::new())
+            .fixed_size((80, 24))
     );
-    // Show a popup on top of the view.
-    siv.add_layer(Dialog::info(
-        "Try resizing the terminal!\n(Press 'q' to \
-         quit when you're done.)",
-    ));
+
+    /*siv.add_fullscreen_layer(
+        Panel::new(TextView::new(content))
+            // This is the alignment for the button
+            ,
+    );*/
 
     siv.run();
 }
