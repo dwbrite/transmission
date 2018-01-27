@@ -1,7 +1,0 @@
-[package]
-name = "transmission"
-version = "0.1.0"
-authors = ["dwbrite"]
-
-[dependencies]
-cursive = { git = "https://github.com/gyscos/Cursive" }
