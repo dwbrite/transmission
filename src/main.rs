@@ -1,4 +1,4 @@
-te cursive;
+extern crate cursive;
 
 use cursive::Cursive;
 use cursive::align::HAlign;
