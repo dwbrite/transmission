@@ -141,13 +141,15 @@ Act casual. Keep listening. Eventually they’ll slip.
 
 > Joyce: People at work are wondering where Dustin went...
 >
-> ???: Lay low. I’ll do the hits until this whole thing blows over.
+> ???: Lay low. We'll just have to wait until this whole thing blows over.
 >
 > Joyce: Thanks, Ch—{static}
 
 Ch! That’s something to work with...
 
-The next week is quiet, and you’re not sure how much longer you can live with a serial killer.
+The next week is quiet.
+
+You’re not sure how much longer you can live with a serial killer.
 
 [Next Week, Sunday]
 
