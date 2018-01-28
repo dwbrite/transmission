@@ -1,35 +1,17 @@
 extern crate ears;
 extern crate cursive;
 
-use ears::{Sound, AudioController};
-use std::time::Duration;
-use std::thread::sleep;
+use ears::{AudioController, Sound};
 use std::thread;
 
 use cursive::Cursive;
-use cursive::event::{Event, Key};
-use cursive::traits::*;
-use cursive::align::*;
 use cursive::view::Boxable;
-use cursive::view::SizeConstraint;
-use cursive::views::{Button, Dialog, DummyView, EditView, LinearLayout, ListView, TextArea, TextView};
+use cursive::views::{Button, Dialog, LinearLayout, ListView, TextArea};
 
 fn main() {
-
-
-    // Read some long text from a file.
-    let content = include_str!("../story.md");
-
     let mut siv = Cursive::new();
 
     siv.load_theme_file("src/theme.toml").unwrap();
-
-    // The text is too long to fit on a line, so the view will wrap lines,
-    // and will adapt to the terminal size.
-
-    let text = "This is a very simple example of linear layout. Two views \
-                are present, a short title above, and this text. The text \
-                has a fixed width, and the title is centered horizontally.";
 
     siv.add_layer(
         Dialog::around(
