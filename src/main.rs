@@ -12,20 +12,19 @@ use cursive::views::{Button, Dialog, LinearLayout, ListView, TextArea, TextView}
 use ears::{AudioController, Sound};
 
 use gag::Gag;
+use std::cell::Cell;
 
-struct StateManager {
-    stateNumber: usize,
-    dialogue: [String],
+struct StateManager <'a>{
+    stateNumber: Cell<usize>,
+    dialogue: &'a[&'a str],
 }
 
 fn main() {
+    //let dia = ;
 
-    let stateNo =0;
-    let dia = ["Finally...back from work. Your wife isn’t home yet...again.", "She’ll probably say, “she’s working late”.", "Checking your phone, you notice a voicemail from her."];
-
-    let state_manager = &mut StateManager {
-        stateNumber: stateNo,
-        dialogue: dia,
+    let state_manager = StateManager {
+        stateNumber: Cell::new(0),
+        dialogue: &["Finally...back from work. Your wife isn’t home yet...again.", "She’ll probably say, “she’s working late”.", "Checking your phone, you notice a voicemail from her."]
     };
 
     let _gag_stderr = Gag::stderr().unwrap();
@@ -55,9 +54,9 @@ fn main() {
                     )
                 )
                 .child(Dialog::around(TextView::new("\n\n\n").with_id("dialogue")))
-                .child(Button::new("Continue", |s| continue_game(s, &mut state_manager)
+                .child(Button::new("Continue", move |s| continue_game(s, &state_manager)
         ).fixed_width(132)
-    );
+    )));
 
     siv.run();
 }
@@ -72,9 +71,14 @@ fn create_play_button() -> Button {
     })
 }
 
+fn continue_game(s: &mut Cursive, sm: &StateManager) {
+    //let _s2 = sm.clone();
 
-fn continue_game(s: &mut Cursive, state_manager: &mut StateManager) {
-    *step += 1;
+    sm.stateNumber.set(sm.stateNumber() + 1);
+    println!("state: {}", sm.stateNumber());
+    //let &mut idk = (&mut sm.stateNumber);
+    //*idk += 1;
+    //*step += 1;
 
     /*s.call_on_id("dialogue", |view: &mut TextView| {
         let content = dialogue[*step];
@@ -82,3 +86,18 @@ fn continue_game(s: &mut Cursive, state_manager: &mut StateManager) {
     });*/
 }
 
+impl<'a> Clone for StateManager<'a> {
+    fn clone(&self) -> Self {
+        self.stateNumber.set(self.stateNumber.get() + 1);
+        StateManager {
+            stateNumber: self.stateNumber.clone(),
+            dialogue: self.dialogue.clone(),
+        }
+    }
+}
+
+impl<'a> StateManager <'a> {
+    fn stateNumber(&self) -> usize {
+        self.stateNumber.get()
+    }
+}
