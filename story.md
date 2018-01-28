@@ -16,7 +16,7 @@ She gets back after you fall asleep.
 
 [new day]
 
-You wake up early to install an app on her phone that records her phone calls and sends them to your voicemail. 
+You wake up early to install an app on her phone that records her phone calls and sends them to your voicemail.
 You’ve done your research, clearly.
 
 ...
@@ -36,9 +36,7 @@ It’s 10:00 Friday, the next day.
 
 > ???: Hey, something came up and I can’t do lunch. Can you do after work?
 >
-> Wife: Er...I don’t want my husband to catch on.
->
-> ???: Oh please, he won’t know.
+> Wife: Sure, that should be fine!
 
 The weekend passes as normal. Nothing else seems suspicious.
 
@@ -46,7 +44,7 @@ On Monday, you receive a voicemail around 3:00 p.m.
 
 > ???: Meet me at the hotel at 6:00. You know the room.
 > ["the hotel" needs a name]
-> 
+>
 > Wife: I'll see you then.
 >
 > ???: See you then.
@@ -58,30 +56,87 @@ Another voicemail enters your inbox.
 Shit. You were right.
 
 Maybe you should start taking notes.
- 
+
 ...
 
 > Wife: Hey... Do you ever worry about getting caught?
-> 
-> ???: As long as we play it safe we'll be fine. 
+>
+> ???: As long as we play it safe we'll be fine.
 > We just have to clean up and make sure there are no *fuzz/cuts/distortion*.
 > It's not like it's something people haven't gotten away with before.
 
-Ouch. Maybe it'll be better to go to bed before she gets home.
+Ouch. Maybe it’ll be better to go to bed before she gets home.
 
 ## Husband finds out about the murdering
 
 > *??? talking, covered by distortion*
 >
 > Wife: Yeah...I’m excited to try out our new toys.
-> 
+
+Jeez, you didn’t want to hear that.
+
+---
+
+[Friday 11:30 p.m.]
+
+Time for lunch...it looks like you have a voicemail from your friend, Dustin.
+
+> Dustin (worried): Hey, I...I...overheard your wife at the office making...uh...*plans* with some guy...call me, okay?
+
+Pfft, a little late if you ask me...Dusty’s always up in everyone’s business anyways. *Embarrassing.* You need to talk to your wife tonight.
+
+[Friday 5:05 p.m.]
+
+> Wife: This is bad. Dusty was giving me these strange looks at work today. I think he’s on to us.
+>
+> ???: We have to silence him.
+
+Jeez, a bit strongly worded. Your wife should be home soon, though, so you can put an end to this nonsense.
+
+[7:00 p.m.]
+
+Your wife isn’t home yet. It’s unlike her to not have called...
+
+[8:00 p.m.]
+
+> ???: I’ve located Dusty. {redacted}
+>
+> Wife something something murdery
+
+Oh my.
+
+No.
+
+It couldn’t be.
+
+No no no.
+
+This is not her.
+
+This is not your wife.
+
+This is not your Joyce.
+
+(Also what about Dusty 8))
+
+Another voicemail.
+
 > someon: *something incriminating as heck. dis is totes murder*
+> Wife: I...took care of Dusty.
+> ???: Perfect. Get out of there. And remember, if you go down, your husband goes down too.
 
-...
+[Are we still doing this? I don't understand the motivations. -dev]
+[The point is to make the husband scared to report the murder. Maybe it should be rephrased to make him scared just to know about the information. -joolz]
 
-> ???: And remember, if you go down, your husband goes down too.
+Yikes. Another one bites the dust. (I’m sorry, I just had too.)
 
-[Are we still doing this? I don't understand the motivations.]
+This is too much for you. You go to bed.
+
+[Next day]
+
+
+
+---
 
 ## Wife suspects her husband knows about the murders
 
