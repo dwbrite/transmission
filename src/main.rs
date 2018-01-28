@@ -26,13 +26,12 @@ impl<'a> StateManager <'a> {
 }
 
 fn main() {
-    //let dia = ;
-
     let state_manager = StateManager {
         state_number: Cell::new(0),
         dialogue: &["Finally...back from work. Your wife isn’t home yet...again.",
             "She’ll probably say, “she’s working late”.",
-            "Checking your phone, you notice a voicemail from her."]
+            "Checking your phone, you notice a voicemail from her.",
+            "No surprise there. You might want to get to the bottom of this."]
     };
 
     let _gag_stderr = Gag::stderr().unwrap();
@@ -86,12 +85,10 @@ fn enable_voicemail(s: &mut Cursive) {
             .title("Voicemail")
             .content(
                 ListView::new()
-                    .child("G’ma - 06/12/07", create_play_button())
-                    .child("Joyce - 06/13/07 6:00 p.m.", create_play_button())
                     .fixed_size((40, 24))
                     .with_id("voicemail")
             )
-        )
+        );
     });
 }
 
@@ -101,12 +98,12 @@ fn enable_notes(s: &mut Cursive) {
             .title("Notes")
             .content(TextArea::new())
             .fixed_size((80, 24))
-        )
+        );
     });
 }
 
 fn add_voicemail(s: &mut Cursive, title: &str, path: &str) {
     s.call_on_id("voicemail", |view: &mut ListView| {
-        view.add_child(title, create_play_button())
+        view.add_child(title, create_play_button());
     });
 }
