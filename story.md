@@ -131,7 +131,7 @@ You spent the day at home with her until she went out “shopping”. You couldn
 
 You've got another voicemail. It’s from Dusty’s boyfriend.
 
-> Hodges: Hey, have you heard from Dusty? He was supposed to be home last night, but I haven't seen him...
+> Hodge: Hey, have you heard from Dusty? He was supposed to be home last night, but I haven't seen him...
 > He hasn't been answering my calls.
 > It's probably nothing, but... call me if you hear anything, okay? Thanks...
 
@@ -140,6 +140,8 @@ Things aren’t looking good. You’ve got to get some solid evidence before you
 Act casual. Keep listening. Eventually they’ll slip.
 
 [Monday]
+
+*bzzzt*
 
 > Joyce: People at work are wondering where Dustin went...
 >

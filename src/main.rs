@@ -38,6 +38,7 @@ fn main() {
                 add_voicemail(s, "Joyce - 05/03/2007 6:30 p.m.", "src/test.ogg");
             }),
             Box::new(|s: &mut Cursive| update_dialogue(s, "No surprise there. You might want to get to the bottom of this.")),
+
             Box::new(|s: &mut Cursive| update_dialogue(s, "[Thursday 5:30 a.m.]")),
             Box::new(|s: &mut Cursive| update_dialogue(s, "You wake up early to install an wiretapping app. It will send all her calls directly to your voicemail. You’ve done your research, clearly.")),
             Box::new(|s: &mut Cursive| update_dialogue(s, "[3:23 p.m.]")),
@@ -47,12 +48,14 @@ fn main() {
             }),
             Box::new(|s: &mut Cursive| update_dialogue(s, "It seems to have cut off some of the audio. Must be a software issue.")),
             Box::new(|s: &mut Cursive| update_dialogue(s, "You get home that night, but don’t mention anything to your wife.")),
+
             Box::new(|s: &mut Cursive| update_dialogue(s, "[Friday 10:07 a.m.]")),
             Box::new(|s: &mut Cursive| {
                 update_dialogue(s, "Another voicemail.");
                 add_voicemail(s, "Joyce - 05/05/2007 10:00 a.m.", "src/test.ogg");
             }),
             Box::new(|s: &mut Cursive| update_dialogue(s, "So that’s what she’s up to. Who could that be?")),
+
             Box::new(|s: &mut Cursive| update_dialogue(s, "[Monday 3:00 p.m.]")),
             Box::new(|s: &mut Cursive| {
                 update_dialogue(s, "Nothing interesting happened over the weekend. You’ve finally got another voicemail.");
@@ -73,6 +76,7 @@ fn main() {
                 add_voicemail(s, "Joyce - 05/08/2007 8:30 p.m.", "src/test.ogg");
             }),
             Box::new(|s: &mut Cursive| update_dialogue(s, "Ouch. Maybe it’ll be better to go to bed before she gets home.")),
+
             Box::new(|s: &mut Cursive| update_dialogue(s, "[Wednesday]")),
             Box::new(|s: &mut Cursive| {
                 update_dialogue(s, "*bzzzt*");
@@ -99,9 +103,62 @@ fn main() {
                add_voicemail(s, "Joyce - 05/12/2007 7:30 p.m.", "src/test.ogg");
             }),
             Box::new(|s: &mut Cursive| update_dialogue(s, "...")),
-            Box::new(|s: &mut Cursive| update_dialogue(s, "dialogue")),
-            Box::new(|s: &mut Cursive| update_dialogue(s, "dialogue")),
-            Box::new(|s: &mut Cursive| update_dialogue(s, "dialogue")),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "[Saturday]")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "You spent the day at home with her until she went out “shopping”. You couldn’t help but feel weird.")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "[Later that night]")),
+            Box::new(|s: &mut Cursive| {
+                update_dialogue(s, "You've got another voicemail. It’s from Dusty’s boyfriend.");
+                add_voicemail(s, "Hodge - 05/13/2007 6:46 p.m.", "src/test.ogg");
+            }),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "Things aren’t looking good. You’ve got to get some solid evidence before you report them to the police.")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "Act casual. Keep listening. Eventually they’ll slip.")),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "[Monday]")),
+            Box::new(|s: &mut Cursive| {
+                update_dialogue(s, "*bzzzt*");
+                add_voicemail(s, "Joyce - 05/15/2007 5:07 p.m.", "src/test.ogg");
+            }),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "Ch! That’s something to work with...")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "The next week is quiet.")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "You’re not sure how much longer you can live like this.")),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "[Next Week, Sunday]")),
+            Box::new(|s: &mut Cursive| {
+                update_dialogue(s, "*bzzzt*");
+                add_voicemail(s, "Joyce - 05/21/2007 1:02 p.m.", "src/test.ogg");
+            }),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "Yikes, you better find out some information *and fast*. You can’t let her follow through with this.")),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "[Thursday]")),
+            Box::new(|s: &mut Cursive| {
+                update_dialogue(s, "You notice a voicemail from an hour ago.");
+                add_voicemail(s, "Joyce - 05/21/2007 4:28 p.m.", "src/test.ogg");
+            }),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "God, she’s already there. You must’ve missed their change in plans. You have to do something.")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "You call your wife to try to stop her, but you hang up before she has time to answer.")),
+            Box::new(|s: &mut Cursive| {
+                update_dialogue(s, "Your phone rings. You let it go to voicemail.");
+                add_voicemail(s, "Joyce - 05/22/2007 5:29 p.m.", "src/test.ogg");
+            }),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "At work is right.")),
+            Box::new(|s: &mut Cursive| {
+                update_dialogue(s, "Another voicemail.");
+                add_voicemail(s, "Joyce - 05/22/2007 5:29 p.m.", "src/test.ogg");
+            }),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "...")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "You must’ve caught her in the act.")),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "You...let her kill them.")),
+
+            Box::new(|s: &mut Cursive| update_dialogue(s, "[Later]")),
+            Box::new(|s: &mut Cursive| {
+               update_dialogue(s, "*bzzzt*");
+               add_voicemail(s, "Joyce - ??/??/2007 7:15 p.m.", "src/test.ogg");
+            }),
+            Box::new(|s: &mut Cursive| update_dialogue(s, "...")),
         ]
     };
 
