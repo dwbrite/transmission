@@ -25,7 +25,7 @@ You’ve done your research, clearly.
 
 At work, you notice a new voicemail.
 
-> Wife: Let’s do lunch at noon tomorrow.
+> Joyce: Let’s do lunch at noon tomorrow.
 >
 > ???: You’re the best. Sounds great.
 
@@ -39,7 +39,7 @@ You get home that night, but don’t mention anything to your wife.
 
 > ???: Hey, something came up and I can’t do lunch. Can you do Monday after work?
 >
-> Wife: Sure, that should be fine!
+> Joyce: Sure, that should be fine!
 
 So that's what she's up to. Who could that be?
 
@@ -51,7 +51,7 @@ Nothing interesting happened over the weekend. You've finally got another voicem
 
 > ???: Meet me at the river hotel at 6:00. You know the room.
 >
-> Wife: I'll see you then.
+> Joyce: I'll see you then.
 >
 > ???: See you then.
 
@@ -67,7 +67,7 @@ Maybe you should start keeping track of this.
 
 [8:30 p.m.]
 
-> Wife: Hey... Do you ever worry about getting caught?
+> Joyce: Hey... Do you ever worry about getting caught?
 >
 > ???: As long as we play it safe we'll be fine.
 > We just have to clean up and make sure there are no *fuzz/cuts/distortion*.
@@ -81,14 +81,10 @@ Ouch. Maybe it’ll be better to go to bed before she gets home.
 
 > *??? talking, covered by distortion*
 >
-> Wife: Yeah...I’m excited to try out our new toys.
+> Joyce: Yeah...I’m excited to try out our new toys.
 
-... That is *not* something you wanted to hear. 
+... That is *not* something you wanted to hear.
 
-
----
-~~Do we need to fill in these lines?~~
----
 
 [Friday 11:30 a.m.]
 
@@ -101,7 +97,7 @@ You need to talk to your wife tonight.
 
 [Friday 5:05 p.m.]
 
-> Wife: This is bad. Dusty was giving me these strange looks at work today. I think he’s on to us.
+> Joyce: This is bad. Dusty was giving me these strange looks at work today. I think he’s on to us.
 >
 > ???: We can't let him tell anyone.
 
@@ -113,37 +109,106 @@ She's not home yet. She didn't even bother to call.
 
 [7:30 p.m.]
 
-> Wife: I took care of Dusty.
+> Joyce: I took care of Dusty.
 >
 > ???: Perfect. Get out of there. Things have started to get a little messy...
 I'm sorry to have to say this, but...if you go down, your husband goes with you.
 I hope you understand.
 >
-> Wife: I understand.
+> Joyce: I understand.
 
-... 
+...
 
 [Saturday]
 
-You spent the day at home with her until she went out "shopping". You couldn't help but feel weird. 
+You spent the day at home with her until she went out “shopping”. You couldn’t help but feel weird.
 
-> Wife: I think my husband suspects something...
->
-> ???: You know, we can’t have any loose ends.
->
-> Wife: *sigh*...I know...He's so sweet though.
->
-> ???: No. Loose. Ends.
->
-> *click*
+<more content/voicemail>
 
 [Later that night]
 
-You've got another voicemail. It's from Dusty's boyfriend.
+You've got another voicemail. It’s from Dusty’s boyfriend.
 
 > Hodges: Hey, have you heard from Dusty? He was supposed to be home last night, but I haven't seen him...
 > He hasn't been answering my calls.
 > It's probably nothing, but... call me if you hear anything, okay? Thanks...
 
-Things aren't looking good. You've got to get some solid evidence before you report them to the police.
-Act casual. Keep listening. Eventually they'll slip. 
+Things aren’t looking good. You’ve got to get some solid evidence before you report them to the police.
+
+Act casual. Keep listening. Eventually they’ll slip.
+
+[Monday]
+
+> Joyce: People at work are wondering where Dustin went...
+>
+> ???: Lay low. I’ll do the hits until this whole thing blows over.
+>
+> Joyce: Thanks, Ch—{static}
+
+Ch! That’s something to work with...
+
+The next week is quiet, and you’re not sure how much longer you can live with a serial killer.
+
+[Next Week, Sunday]
+
+> ???: I have a job for you.
+>
+> Joyce: What’s up?
+>
+> ???: The Bensons...
+>
+> Joyce: All of them?
+>
+> ???: Mmm.
+>
+> Joyce: When?
+>
+> ???: This Friday. You’ll need to get there by 4:30 to get there before Carmen gets home from work.
+>
+> Joyce: Can do.
+
+Yikes, you better find out some information *and fast*. You can’t let her follow through with this.
+
+[Thursday]
+
+You notice a voicemail from an hour ago.
+
+> Joyce: I’m at the Bensons’.
+>
+> ???: Excellent.
+
+God, she’s already there. You must’ve missed their change in plans. You have to do something.
+
+You call your wife to try to stop her, but you hang up before she has time to answer.
+
+Your phone rings. You let it go to voicemail.
+
+> Joyce: Hey honey, what’s up? I’m at work.
+
+At work is right.
+
+Another voicemail.
+
+> Joyce: It’s done.
+>
+> ???: Perfect.
+
+...
+
+You must’ve caught her in the act.
+
+You...let her kill them.
+
+---
+
+> Joyce: I think my husband suspects something...
+>
+> ???: You know, we can’t have any loose ends.
+>
+> Joyce: *sigh*...I know...He's so sweet though.
+>
+> ???: No. Loose. Ends.
+>
+> *click*
+
+You have to report it before things get any worse.
