@@ -14,13 +14,14 @@ use cursive::view::SizeConstraint;
 use cursive::views::{Button, Dialog, DummyView, EditView, LinearLayout, ListView, TextArea, TextView};
 
 fn main() {
-    // let mut snd = Sound::new("src/test.ogg").unwrap();
-    // snd.play();
+
 
     // Read some long text from a file.
     let content = include_str!("../story.md");
 
     let mut siv = Cursive::new();
+
+    siv.load_theme_file("src/theme.toml").unwrap();
 
     // The text is too long to fit on a line, so the view will wrap lines,
     // and will adapt to the terminal size.
@@ -41,14 +42,21 @@ fn main() {
                 .title("Voicemail")
                 .content(
                     ListView::new()
-                        .child("G’ma • 06/12/07", Button::new("Play", |x|0))
-                        .child("Joyce • 06/13/07 6:00 p.m.", Button::new("Play", |x|0))
+                        .child("G’ma • 06/12/07", Button::new("Play", testAudio))
+                        .child("Joyce • 06/13/07 6:00 p.m.", Button::new("Play", testAudio))
                         .fixed_size((40, 24))
                 )
             )
         )
     );
 
-
     siv.run();
+}
+
+fn testAudio(_: &mut Cursive) {
+    let mut snd = Sound::new("src/test.ogg").unwrap();
+    snd.play();
+    while snd.is_playing() {
+
+    }
 }
