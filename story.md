@@ -12,13 +12,13 @@ She’ll probably say, “she’s working late”.
 
 [BOOP!~ VOICEMAIL!]
 
-> Hey honey, things are a bit crazy at work today, so I’ll be home late. Love you!
+> Joyce: Hey honey, things are a bit crazy at work today, so I’ll be home late. Love you!
 
 No surprise there. You might want to get to the bottom of this.
 
 [Thursday 5:30 a.m.]
 
-You wake up early to install an wiretapping app. It will send all her calls directly to your voicemail.
+You wake up early to install a wiretapping app. It will record and send all her calls directly to your voicemail.
 You’ve done your research, clearly.
 
 ...
@@ -57,7 +57,7 @@ Nothing interesting happened over the weekend. You've finally got another voicem
 
 Another voicemail enters your inbox.
 
-> Hey honey, my boss needs me to stay after work again. Looove you!
+> Joyce: Hey honey, my boss needs me to stay after work again. Looove you!
 
 Shit.
 
@@ -70,7 +70,7 @@ Maybe you should start keeping track of this.
 > Joyce: Hey... Do you ever worry about getting caught?
 >
 > ???: As long as we play it safe we'll be fine.
-> We just have to clean up and make sure there are no *fuzz/cuts/distortion*.
+> We just have to clean up and make sure there are no *(stains or anything3)fuzz/cuts/distortion*.
 > It's not like it's something people haven't gotten away with before.
 
 Ouch. Maybe it’ll be better to go to bed before she gets home.
@@ -79,7 +79,7 @@ Ouch. Maybe it’ll be better to go to bed before she gets home.
 
 [Wednesday]
 
-> *??? talking, covered by distortion*
+> *()??? talking, covered by distortion*
 >
 > Joyce: Yeah...I’m excited to try out our new toys.
 
@@ -118,6 +118,8 @@ I hope you understand.
 > Joyce: I understand.
 
 ...
+
+[cut it here, we can't let the audience know it's unfinished.]
 
 [Saturday]
 
@@ -214,3 +216,6 @@ You...let her kill them.
 > *click*
 
 You have to report it before things get any worse.
+
+
+~~
