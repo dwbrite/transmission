@@ -85,8 +85,8 @@ fn enable_voicemail(s: &mut Cursive) {
             .title("Voicemail")
             .content(
                 ListView::new()
-                    .fixed_size((40, 24))
                     .with_id("voicemail")
+                    .fixed_size((40, 24))
             )
         );
     });
