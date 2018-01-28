@@ -16,12 +16,14 @@ She’ll probably say, “she’s working late”.
 
 No surprise there. You might want to get to the bottom of this.
 
+...
+
 [Thursday 5:30 a.m.]
 
 You wake up early to install an wiretapping app. It will send all her calls directly to your voicemail.
 You’ve done your research, clearly.
 
-...
+[3:32 p.m.]
 
 At work, you notice a new voicemail.
 
@@ -35,7 +37,9 @@ You get home that night, but don’t mention anything to your wife.
 
 ...
 
-[Friday 10:00 a.m.]
+[Friday 10:07 a.m.]
+
+Another voicemail.
 
 > ???: Hey, something came up and I can’t do lunch. Can you do Monday after work?
 >
@@ -47,9 +51,9 @@ So that's what she's up to. Who could that be?
 
 [Monday 3:00 p.m.]
 
-Nothing interesting happened over the weekend. You've finally got another voicemail.
+Nothing interesting happened over the weekend. You’ve finally got another voicemail.
 
-> ???: Meet me at the river hotel at 6:00. You know the room.
+> ???: Meet me at the River Hotel at 6:00. You know the room.
 >
 > Joyce: I'll see you then.
 >
@@ -67,6 +71,8 @@ Maybe you should start keeping track of this.
 
 [8:30 p.m.]
 
+You’re watching TV when you hear your phone buzz.
+
 > Joyce: Hey... Do you ever worry about getting caught?
 >
 > ???: As long as we play it safe we'll be fine.
@@ -79,12 +85,13 @@ Ouch. Maybe it’ll be better to go to bed before she gets home.
 
 [Wednesday]
 
+*bzzzt*
+
 > *??? talking, covered by distortion*
 >
 > Joyce: Yeah...I’m excited to try out our new toys.
 
-... That is *not* something you wanted to hear.
-
+...that is *not* something you wanted to hear.
 
 [Friday 11:30 a.m.]
 
@@ -93,9 +100,10 @@ Time for lunch...it looks like you have a voicemail from your friend, Dustin.
 > Dustin (worried): Hey, I...I...overheard your wife at the office making...uh...*plans* with some guy...call me, okay?
 
 Pfft, a little late if you ask me...Dusty’s always up in everyone’s business anyways.
+
 You need to talk to your wife tonight.
 
-[Friday 5:05 p.m.]
+[5:05 p.m.]
 
 > Joyce: This is bad. Dusty was giving me these strange looks at work today. I think he’s on to us.
 >
@@ -105,7 +113,7 @@ You need to talk to your wife tonight.
 
 [7:00 p.m.]
 
-She's not home yet. She didn't even bother to call.
+She’s not home yet. She didn't even bother to call.
 
 [7:30 p.m.]
 
