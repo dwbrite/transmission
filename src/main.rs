@@ -15,16 +15,24 @@ use gag::Gag;
 use std::cell::Cell;
 
 struct StateManager <'a>{
-    stateNumber: Cell<usize>,
+    state_number: Cell<usize>,
     dialogue: &'a[&'a str],
+}
+
+impl<'a> StateManager <'a> {
+    fn state_number(&self) -> usize {
+        self.state_number.get()
+    }
 }
 
 fn main() {
     //let dia = ;
 
     let state_manager = StateManager {
-        stateNumber: Cell::new(0),
-        dialogue: &["Finally...back from work. Your wife isn’t home yet...again.", "She’ll probably say, “she’s working late”.", "Checking your phone, you notice a voicemail from her."]
+        state_number: Cell::new(0),
+        dialogue: &["Finally...back from work. Your wife isn’t home yet...again.",
+            "She’ll probably say, “she’s working late”.",
+            "Checking your phone, you notice a voicemail from her."]
     };
 
     let _gag_stderr = Gag::stderr().unwrap();
@@ -36,24 +44,8 @@ fn main() {
     siv.add_layer(
         Dialog::around(
             LinearLayout::vertical()
-                .child(
-                    LinearLayout::horizontal()
-                    .child(Dialog::new()
-                        .title("Notes")
-                        .content(TextArea::new())
-                        .fixed_size((80, 24))
-                    )
-                    .child(Dialog::new()
-                        .title("Voicemail")
-                        .content(
-                            ListView::new()
-                                .child("G’ma - 06/12/07", create_play_button())
-                                .child("Joyce - 06/13/07 6:00 p.m.", create_play_button())
-                                .fixed_size((40, 24))
-                        )
-                    )
-                )
-                .child(Dialog::around(TextView::new("\n\n\n").with_id("dialogue")))
+                .child(LinearLayout::horizontal().with_id("desktop"))
+                .child(Dialog::around(TextView::new(state_manager.dialogue[0]).with_id("dialogue")))
                 .child(Button::new("Continue", move |s| continue_game(s, &state_manager)
         ).fixed_width(132)
     )));
@@ -72,32 +64,49 @@ fn create_play_button() -> Button {
 }
 
 fn continue_game(s: &mut Cursive, sm: &StateManager) {
-    //let _s2 = sm.clone();
+    sm.state_number.set(sm.state_number() + 1);
 
-    sm.stateNumber.set(sm.stateNumber() + 1);
-    println!("state: {}", sm.stateNumber());
-    //let &mut idk = (&mut sm.stateNumber);
-    //*idk += 1;
-    //*step += 1;
+    if sm.state_number() == 1 {
+        enable_voicemail(s);
+    }
 
-    /*s.call_on_id("dialogue", |view: &mut TextView| {
-        let content = dialogue[*step];
-        view.set_content(content);
-    });*/
+    let next_dialogue = sm.dialogue[sm.state_number()];
+
+    s.call_on_id("dialogue", |view: &mut TextView| {
+        view.set_content(next_dialogue);
+    });
+
+
+    add_voicemail(s, "Hello!", ":(");
 }
 
-impl<'a> Clone for StateManager<'a> {
-    fn clone(&self) -> Self {
-        self.stateNumber.set(self.stateNumber.get() + 1);
-        StateManager {
-            stateNumber: self.stateNumber.clone(),
-            dialogue: self.dialogue.clone(),
-        }
-    }
+fn enable_voicemail(s: &mut Cursive) {
+    s.call_on_id("desktop", |view: &mut LinearLayout| {
+        view.add_child(Dialog::new()
+            .title("Voicemail")
+            .content(
+                ListView::new()
+                    .child("G’ma - 06/12/07", create_play_button())
+                    .child("Joyce - 06/13/07 6:00 p.m.", create_play_button())
+                    .fixed_size((40, 24))
+                    .with_id("voicemail")
+            )
+        )
+    });
 }
 
-impl<'a> StateManager <'a> {
-    fn stateNumber(&self) -> usize {
-        self.stateNumber.get()
-    }
+fn enable_notes(s: &mut Cursive) {
+    s.call_on_id("desktop", |view: &mut LinearLayout| {
+        view.add_child(Dialog::new()
+            .title("Notes")
+            .content(TextArea::new())
+            .fixed_size((80, 24))
+        )
+    });
+}
+
+fn add_voicemail(s: &mut Cursive, title: &str, path: &str) {
+    s.call_on_id("voicemail", |view: &mut ListView| {
+        view.add_child(title, create_play_button())
+    });
 }
