@@ -1,14 +1,20 @@
-extern crate ears;
 extern crate cursive;
+extern crate ears;
+extern crate gag;
 
-use ears::{AudioController, Sound};
 use std::thread;
 
 use cursive::Cursive;
 use cursive::view::Boxable;
 use cursive::views::{Button, Dialog, LinearLayout, ListView, TextArea};
 
+use ears::{AudioController, Sound};
+
+use gag::Gag;
+
 fn main() {
+    let _gag_stderr = Gag::stderr().unwrap();
+
     let mut siv = Cursive::new();
 
     siv.load_theme_file("src/theme.toml").unwrap();
@@ -39,9 +45,9 @@ fn main() {
 fn create_play_button() -> Button {
     Button::new("Play", |_| {
         thread::spawn(move || {
-            let mut snd = Sound::new("src/test.ogg").unwrap();
-            snd.play();
-            while snd.is_playing() { }
+            let mut sound = Sound::new("src/test.ogg").unwrap();
+            sound.play();
+            while sound.is_playing() { }
         });
     })
 }
