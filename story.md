@@ -2,25 +2,23 @@
 Chicago, Illinos
 2007
 
-[Wednesday 8:00 p.m.]
+[Wednesday 6:30 p.m.]
 
 Finally...back from work. Your wife isn’t home yet...again.
 
 She’ll probably say, “she’s working late”.
 
-Checking your phone, you notice a voicemail from her.
+~~Checking your phone, you notice a voicemail from her.~~
+
+[BOOP!~ VOICEMAIL!]
 
 > Hey honey, things are a bit crazy at work today, so I’ll be home late. Love you!
 
-No surprise there. You’re going to get to the bottom of this.
+No surprise there. You might want to get to the bottom of this.
 
-...
+[Thursday 5:30 a.m.]
 
-She gets back after you fall asleep.
-
-[Thursday morning]
-
-You wake up early to install an app on her phone that records her phone calls and sends them to your voicemail.
+You wake up early to install an wiretapping app. It will send all her calls directly to your voicemail.
 You’ve done your research, clearly.
 
 ...
@@ -31,7 +29,7 @@ At work, you notice a new voicemail.
 >
 > ???: You’re the best. Sounds great.
 
-It seems to have cut off some of the audio, but there’s nothing suspicious yet.
+It seems to have cut off some of the audio. Must be a software issue.
 
 You get home that night, but don’t mention anything to your wife.
 
@@ -39,13 +37,17 @@ You get home that night, but don’t mention anything to your wife.
 
 [Friday 10:00 a.m.]
 
-> ???: Hey, something came up and I can’t do lunch. Can you do after work?
+> ???: Hey, something came up and I can’t do lunch. Can you do Monday after work?
 >
 > Wife: Sure, that should be fine!
 
-The weekend passes as normal. Nothing else seems suspicious.
+So that's what she's up to. Who could that be?
 
-On Monday, you receive a voicemail around 3:00 p.m.
+...
+
+[Monday 3:00 p.m.]
+
+Nothing interesting happened over the weekend. You've finally got another voicemail.
 
 > ???: Meet me at the river hotel at 6:00. You know the room.
 >
@@ -57,11 +59,13 @@ Another voicemail enters your inbox.
 
 > Hey honey, my boss needs me to stay after work again. Looove you!
 
-Shit. You were right.
+Shit.
 
-Maybe you should start taking notes.
+Maybe you should start keeping track of this.
 
-...
+[BOOP!~ NOTES!]
+
+[8:30 p.m.]
 
 > Wife: Hey... Do you ever worry about getting caught?
 >
@@ -71,23 +75,29 @@ Maybe you should start taking notes.
 
 Ouch. Maybe it’ll be better to go to bed before she gets home.
 
-## Husband finds out about the murdering
+~~Put an input prompt here, perhaps. Tuesday morning.~~
+
+[Wednesday]
 
 > *??? talking, covered by distortion*
 >
 > Wife: Yeah...I’m excited to try out our new toys.
 
-Jeez, you didn’t want to hear that.
+... That is *not* something you wanted to hear. 
+
 
 ---
+~~Do we need to fill in these lines?~~
+---
 
-[Friday 11:30 p.m.]
+[Friday 11:30 a.m.]
 
 Time for lunch...it looks like you have a voicemail from your friend, Dustin.
 
 > Dustin (worried): Hey, I...I...overheard your wife at the office making...uh...*plans* with some guy...call me, okay?
 
-Pfft, a little late if you ask me...Dusty’s always up in everyone’s business anyways. *Embarrassing.* You need to talk to your wife tonight.
+Pfft, a little late if you ask me...Dusty’s always up in everyone’s business anyways.
+You need to talk to your wife tonight.
 
 [Friday 5:05 p.m.]
 
@@ -101,25 +111,21 @@ Pfft, a little late if you ask me...Dusty’s always up in everyone’s business
 
 She's not home yet. She didn't even bother to call.
 
-[8:00 p.m.]
+[7:30 p.m.]
 
 > Wife: I took care of Dusty.
 >
-> ???: Perfect. Get out of there. Things have started to get a little messy...I'm sorry to have to say this, but...if you go down, your husband goes with you. I hope you understand.
+> ???: Perfect. Get out of there. Things have started to get a little messy...
+I'm sorry to have to say this, but...if you go down, your husband goes with you.
+I hope you understand.
 >
 > Wife: I understand.
 
-Yikes. Another one bites the dust.
+... 
 
-This is too much for you. You go to bed.
+[Saturday]
 
-[Next day]
-
-
-
----
-
-## Wife suspects her husband knows about the murders
+You spent the day at home with her until she went out "shopping". You couldn't help but feel weird. 
 
 > Wife: I think my husband suspects something...
 >
@@ -130,3 +136,14 @@ This is too much for you. You go to bed.
 > ???: No. Loose. Ends.
 >
 > *click*
+
+[Later that night]
+
+You've got another voicemail. It's from Dusty's boyfriend.
+
+> Hodges: Hey, have you heard from Dusty? He was supposed to be home last night, but I haven't seen him...
+> He hasn't been answering my calls.
+> It's probably nothing, but... call me if you hear anything, okay? Thanks...
+
+Things aren't looking good. You've got to get some solid evidence before you report them to the police.
+Act casual. Keep listening. Eventually they'll slip. 
