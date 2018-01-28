@@ -4,6 +4,7 @@ extern crate cursive;
 use ears::{Sound, AudioController};
 use std::time::Duration;
 use std::thread::sleep;
+use std::thread;
 
 use cursive::Cursive;
 use cursive::event::{Event, Key};
@@ -36,27 +37,29 @@ fn main() {
             .child(Dialog::new()
                 .title("Notes")
                 .content(TextArea::new())
-                .fixed_size((60, 24))
+                .fixed_size((80, 24))
             )
             .child(Dialog::new()
                 .title("Voicemail")
                 .content(
                     ListView::new()
-                        .child("G’ma • 06/12/07", Button::new("Play", testAudio))
-                        .child("Joyce • 06/13/07 6:00 p.m.", Button::new("Play", testAudio))
+                        .child("G’ma - 06/12/07", create_play_button())
+                        .child("Joyce - 06/13/07 6:00 p.m.", create_play_button())
                         .fixed_size((40, 24))
                 )
             )
-        )
+        ).fixed_width(132)
     );
 
     siv.run();
 }
 
-fn testAudio(_: &mut Cursive) {
-    let mut snd = Sound::new("src/test.ogg").unwrap();
-    snd.play();
-    while snd.is_playing() {
-
-    }
+fn create_play_button() -> Button {
+    Button::new("Play", |_| {
+        thread::spawn(move || {
+            let mut snd = Sound::new("src/test.ogg").unwrap();
+            snd.play();
+            while snd.is_playing() { }
+        });
+    })
 }
