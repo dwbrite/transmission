@@ -16,18 +16,26 @@ use std::cell::Cell;
 
 struct StateManager <'a>{
     state_number: Cell<usize>,
+    states: Vec<Box<Fn(&mut Cursive)>>,
     dialogue: &'a[&'a str],
 }
 
 impl<'a> StateManager <'a> {
-    fn state_number(&self) -> usize {
-        self.state_number.get()
+    fn next_state(&self, s: &mut Cursive) {
+        // update_dialogue(s, "yayyy ish"); // this works
+        (self.states[self.state_number.get()])(s); // this doesn’t...
+        self.state_number.set(self.state_number.get() + 1);
     }
 }
 
 fn main() {
     let state_manager = StateManager {
         state_number: Cell::new(0),
+        states: vec![Box::new(|s: &mut Cursive| update_dialogue(s, "oh cool!")),
+                     Box::new(|s: &mut Cursive| enable_voicemail(s)),
+                     Box::new(|s: &mut Cursive| add_voicemail(s, "voicemail 1", "")),
+                     Box::new(|s: &mut Cursive | add_voicemail(s, "voicemail 2", ""))],
+
         dialogue: &["Finally...back from work. Your wife isn’t home yet...again.",
             "She’ll probably say, “she’s working late”.",
             "Checking your phone, you notice a voicemail from her.",
@@ -63,20 +71,14 @@ fn create_play_button() -> Button {
 }
 
 fn continue_game(s: &mut Cursive, sm: &StateManager) {
-    sm.state_number.set(sm.state_number() + 1);
+    sm.next_state(s);
+}
 
-    if sm.state_number() == 1 {
-        enable_voicemail(s);
-    }
-
-    let next_dialogue = sm.dialogue[sm.state_number()];
-
+fn update_dialogue(s: &mut Cursive, dialogue: &str) {
     s.call_on_id("dialogue", |view: &mut TextView| {
-        view.set_content(next_dialogue);
+        view.set_content(dialogue);
     });
 
-
-    add_voicemail(s, "Hello!", ":(");
 }
 
 fn enable_voicemail(s: &mut Cursive) {
